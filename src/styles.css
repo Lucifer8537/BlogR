@@ -1,1 +1,129 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Overpass";
+  src: url("../src/fonts/Overpass/Overpass-VariableFont_wght.ttf"),
+    url("../src/fonts/Overpass/Overpass-Italic-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../src/fonts/Ubuntu/Ubuntu-Regular.ttf"),
+    url("../src/fonts/Ubuntu/Ubuntu-Bold.ttf"),
+    url("../src/fonts/Ubuntu/Ubuntu-BoldItalic.ttf"),
+    url("../src/fonts/Ubuntu/Ubuntu-Italic.ttf"),
+    url("../src/fonts/Ubuntu/Ubuntu-Light.ttf"),
+    url("../src/fonts/Ubuntu/Ubuntu-LightItalic.ttf"),
+    url("../src/fonts/Ubuntu/Ubuntu-Medium.ttf"),
+    url("../src/fonts/Ubuntu/Ubuntu-MediumItalic.ttf");
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.container,
+.head-content,
+.main {
+  display: grid;
+}
+
+.header,
+.menu,
+.submenu,
+.logo-menu,
+.login-signup,
+.free-learn-container,
+.mobile-editorial {
+  display: flex;
+}
+.free-learn-container {
+  justify-content: center;
+}
+.container {
+  width: 100%;
+  height: 100%;
+}
+.header {
+  justify-content: space-between;
+  align-items: center;
+}
+.signup,
+.start-for-free {
+  color: hsl(353, 100%, 62%);
+  background-color: white;
+  border: 0;
+  outline: 0;
+  border-radius: 25px;
+  font-weight: 600;
+}
+
+.login,
+.learn-more {
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  outline: 0;
+  border: 0;
+  font-weight: 600;
+}
+.submenu {
+  align-items: center;
+}
+.rotated {
+  transform: rotate(180deg);
+}
+.option {
+  font-family: "Ubuntu";
+}
+.heading {
+  color: white;
+  text-align: center;
+  font-family: "Overpass";
+  line-height: 1em;
+}
+.motto {
+  color: white;
+  text-align: center;
+  font-family: "Overpass";
+  margin-top: 5%;
+}
+.heading-main {
+  text-align: center;
+  color: hsl(208, 49%, 24%);
+  font-weight: 600;
+  font-family: "Overpass";
+  line-height: 1em;
+}
+.mini-heading {
+  font-family: "Overpass";
+  color: hsl(208, 49%, 24%);
+  font-weight: 600;
+}
+.mini-content {
+  color: hsl(207, 13%, 34%);
+  font-family: "Overpass";
+}
+.mobile-editorial {
+  background-image: url("../src/assets/bg-pattern-circles.svg");
+  background-color: hsl(237, 17%, 21%);
+  background-repeat: no-repeat;
+  position: relative;
+}
+.mob-editorial-heading {
+  font-weight: 500;
+  font-family: "Overpass";
+  line-height: 1em;
+}
+.mob-editorial-content {
+  font-weight: 200;
+  line-height: 1.5em;
+  font-family: "Overpass";
+}

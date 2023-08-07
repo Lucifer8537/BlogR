@@ -1,0 +1,431 @@
+@media (min-width: 679px) {
+  .pointer {
+    cursor: pointer;
+  }
+  .head {
+    background-image: url("../assets/bg-pattern-intro-desktop.svg"),
+      linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    width: 80%;
+    height: fit-content;
+    padding: 5% 10% 10% 10%;
+    background-position: 22% center;
+    border-radius: 0px 0px 0px 110px;
+  }
+
+  .header {
+    width: 100%;
+  }
+
+  .logo-menu {
+    align-items: center;
+    width: 83%;
+  }
+
+  .logo {
+    margin-right: 7%;
+  }
+
+  .menu {
+    align-items: center;
+    width: 45%;
+  }
+
+  .submenu {
+    color: white;
+    font-size: 18px;
+    margin-right: 11%;
+  }
+
+  .submenu:hover .option {
+    text-decoration: underline;
+  }
+
+  ::ng-deep .mat-mdc-menu-panel {
+    margin-top: 15px; /* Adjust this value to move the menu down */
+  }
+
+  .custom-menu {
+    display: grid;
+    padding: 10px 40px 20px 20px;
+    line-height: 2em;
+    font-size: 15px;
+    width: 80px;
+  }
+
+  .cutom-option {
+    cursor: pointer;
+  }
+
+  .cutom-option:hover {
+    font-weight: 600;
+  }
+
+  .option {
+    margin-right: 10%;
+  }
+
+  .login-signup {
+    font-family: "Ubuntu";
+    width: 17%;
+    justify-content: space-between;
+  }
+
+  .login,
+  .learn-more {
+    font-size: 18px;
+    margin-right: 20px;
+  }
+
+  .signup,
+  .start-for-free {
+    font-size: 18px;
+    width: 100%;
+    height: 50px;
+    min-width: 75px;
+  }
+
+  .login:hover {
+    cursor: pointer;
+  }
+  .signup:hover,
+  .start-for-free:hover {
+    background-color: hsl(355, 100%, 74%);
+    color: white;
+    cursor: pointer;
+  }
+
+  .learn-more:hover {
+    background-color: white;
+    color: hsl(355, 100%, 74%);
+    cursor: pointer;
+  }
+
+  .heading {
+    font-size: 70px;
+    margin-top: 10%;
+  }
+
+  .motto {
+    font-size: 24px;
+  }
+
+  .free-learn-container {
+    margin-top: 5%;
+  }
+
+  .start-for-free {
+    width: 150px;
+    margin-right: 2%;
+  }
+
+  .learn-more {
+    border: 2px solid white;
+    border-radius: 25px;
+    margin: 0px 0px 0px 0px;
+    width: 150px;
+  }
+  .main {
+    background-image: url("../assets/illustration-editor-desktop.svg");
+    background-size: auto;
+    background-position: 150% -40%;
+    background-repeat: no-repeat;
+    margin-bottom: 5%;
+  }
+  .heading-main {
+    margin-top: 10%;
+    font-size: 35px;
+    margin-bottom: 10%;
+  }
+  .designed-content {
+    padding: 0% 52% 5% 15%;
+  }
+  .mini-heading {
+    font-size: 25px;
+  }
+  .mini-content {
+    margin-top: 5%;
+    line-height: 2em;
+    font-size: 16px;
+  }
+  .mobile-editorial {
+    background-position: -55% bottom;
+  }
+  .mob-img-container {
+    position: absolute;
+    top: -15%;
+  }
+  .editorial {
+    color: white;
+    padding: 8% 0% 6% 55%;
+  }
+  .mob-editorial-heading {
+    font-size: 45px;
+    margin-bottom: 5%;
+  }
+
+  .mob-editorial-content {
+    font-size: 21px;
+  }
+
+  .laptop-editorial {
+    background-image: url("../assets/illustration-laptop-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: -51% 45%;
+  }
+
+  .laptop {
+    width: 40%;
+    margin: 20% 0% 20% 55%;
+  }
+
+  .laptop-content {
+    margin-bottom: 15%;
+  }
+
+  .footer {
+    display: flex;
+    color: white;
+    background-color: hsl(240, 10%, 16%);
+    padding: 5% 25% 5% 10%;
+    border-radius: 0px 100px 0px 0px;
+  }
+
+  .footer-logo {
+    margin-right: 20%;
+  }
+  .footer-data {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-family: "Ubuntu";
+  }
+  .footer-head {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+  .footer-body {
+    display: grid;
+  }
+  .data {
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+  .data:hover {
+    text-decoration: underline;
+  }
+}
+@media (max-width: 679px) {
+  .container {
+    position: relative;
+  }
+  .head {
+    background-image: url("../assets/bg-pattern-intro-mobile.svg"),
+      linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    height: fit-content;
+
+    padding: 10% 5% 30% 5%;
+    border-radius: 0px 0px 0px 70px;
+    background-position: 33% 35%;
+    background-size: 365% auto;
+  }
+
+  .logo-img {
+    width: 80%;
+  }
+
+  .heading {
+    font-size: 230%;
+    margin-top: 20%;
+  }
+
+  .motto {
+    font-size: 111%;
+  }
+  .start-for-free {
+    margin-right: 5%;
+    padding: 4%;
+    font-size: 100%;
+  }
+  .learn-more {
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 4%;
+    font-size: 100%;
+  }
+  .free-learn-container {
+    margin-top: 10%;
+  }
+  .custom-menu {
+    position: absolute;
+    background-color: white;
+    top: 13%;
+    left: 5%;
+    width: 80%;
+    display: grid;
+    padding: 10% 5% 10% 5%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+
+  .submenu-container {
+    border-bottom: 1px solid hsl(240, 2%, 79%, 0.5);
+  }
+  .submenu {
+    font-size: 140%;
+    margin-bottom: 10%;
+    justify-content: center;
+  }
+  .option {
+    margin-right: 5%;
+    font-weight: 500;
+    color: hsl(240, 10%, 16%);
+  }
+
+  .submenu-click {
+    display: grid;
+    text-align: center;
+    background-color: hsl(240, 2%, 79%, 0.2);
+    color: hsl(207, 13%, 34%);
+    font-size: 130%;
+    padding: 5% 5% 5% 5%;
+    line-height: 2em;
+    border-radius: 10px;
+    font-weight: 500;
+    margin-bottom: 10%;
+  }
+  .login-signup {
+    display: grid;
+  }
+
+  .login {
+    color: hsl(240, 10%, 16%);
+    font-size: 130%;
+    font-family: "Overpass";
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  .signup {
+    background: linear-gradient(
+      to right,
+      hsl(13, 100%, 72%),
+      hsl(353, 100%, 62%)
+    );
+    color: white;
+    padding: 5% 10% 5% 10%;
+    width: max-content;
+    font-size: 130%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .main {
+    padding: 5%;
+  }
+
+  .heading-main {
+    margin-top: 20%;
+    font-size: 200%;
+    margin-bottom: 15%;
+  }
+
+  .mobile-editor {
+    width: 100%;
+  }
+
+  .designed-content {
+    margin-top: 15%;
+  }
+
+  .mini-heading {
+    font-size: 195%;
+    text-align: center;
+    line-height: 1.2em;
+  }
+  .mini-content {
+    margin-top: 5%;
+    line-height: 1.5em;
+    font-size: 120%;
+
+    text-align: center;
+  }
+  .mobile-editorial {
+    display: grid;
+    background-size: 154%;
+    background-position-x: center;
+    background-position-y: -19em;
+    margin-top: 70%;
+    border-radius: 0px 100px 0px 100px;
+  }
+  .mob-img-container {
+    position: absolute;
+    top: -40%;
+  }
+  .editorial {
+    padding: 50% 10% 30% 10%;
+    color: white;
+    text-align: center;
+  }
+  .mob-img-container img {
+    width: 100%;
+  }
+  .mob-editorial-heading {
+    font-size: 270%;
+    margin-bottom: 10%;
+  }
+
+  .mob-editorial-content {
+    font-size: 107%;
+  }
+
+  .laptop-mobile {
+    width: 100%;
+    margin: 10% 0% 10% 0%;
+  }
+
+  .laptop {
+  }
+  .laptop-content {
+    margin-bottom: 15%;
+  }
+  .footer {
+    display: grid;
+    color: white;
+    background-color: hsl(240, 10%, 16%);
+    padding: 5% 25% 5% 10%;
+    border-radius: 0px 100px 0px 0px;
+    justify-content: center;
+  }
+
+  .footer-logo {
+    margin: 40% 0% 40% 0%;
+  }
+  .footer-data {
+    text-align: center;
+    display: grid;
+    width: 100%;
+    justify-content: space-between;
+    font-family: "Ubuntu";
+  }
+  .product {
+    margin-bottom: 30%;
+  }
+  .company {
+    margin-bottom: 30%;
+  }
+  .connect {
+    margin-bottom: 30%;
+  }
+  .footer-head {
+    font-size: 120%;
+    font-weight: 600;
+    margin-bottom: 25%;
+  }
+  .footer-body {
+    display: grid;
+  }
+  .data {
+    margin-bottom: 10%;
+  }
+}
